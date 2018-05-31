@@ -1,0 +1,28 @@
+{
+  "name": "proto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">= 6.1 <= 8.9"
+  },
+  "dependencies": {
+    "botpress": "10.11.2",
+    "@botpress/audience": "10.11.2",
+    "@botpress/builtins": "10.11.2",
+    "@botpress/nlu": "10.11.2",
+    "@botpress/skill-choice": "10.11.2",
+    "@botpress/hitl": "10.11.2",
+    "@botpress/channel-web": "10.11.2",
+    "jsdoc-api": "^4.0.3",
+    "lodash": "^4.17.10",
+    "yn": "^2.0.0"
+  },
+  "scripts": {
+    "start": "botpress start",
+    "ghost-sync": "botpress ghost-sync",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "AGPL-3.0"
+}
